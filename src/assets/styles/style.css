@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.modal-login,
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    width: 200px;
+    height: 150px;
+    color: #418608;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+}
+#modal-input{
+    margin: 15px;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    padding: 15px;
+}
+h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #06111a;
+    font-weight: normal;
+}
+.btn-block{
+    display: flex;
+}
+input {
+    width: 262px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: #3987c9;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #062138;
+
+
+}
+#form-login,
+.add-form {
+    display: flex;
+    margin: 30px 0;
+}
+#select-comp{
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 16px;
+
+}
+.change-btn:hover {
+   background: darkgreen;
+}
+.del-btn:hover {
+   background: #cc0f48;
+}
+.green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #72ff00;
+    color: #72ff00;
+    font-size: 16px;
+}
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    font-size: 16px;
+}
